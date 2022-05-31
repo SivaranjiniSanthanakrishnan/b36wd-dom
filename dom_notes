@@ -1,0 +1,25 @@
+
+DOM : Document Object Model
+    => DOM gives a Structural representation of HTML elements
+    => HTML is parsed and converted into DOM 
+    => The structural representation will be the tree structure 
+
+DOM Manipulation 
+    => Manipulating HTML elements / tags from Javascript is DOM 
+    => To support dynamic operation 
+    => To perform operations in HTML elements we are using DOM Manipulation 
+
+
+document.getElementById
+innerHtml vs innerText
+document.getElementsByClassName
+document.getElementsByTagName
+createElement
+setAttribute
+append vs appendChild 
+
+
+
+// Function to see 
+1. Apply style
+2. Create element in JS itself and append it to body 
