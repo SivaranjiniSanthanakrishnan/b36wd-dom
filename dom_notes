@@ -11,13 +11,14 @@ DOM Manipulation
 
 
 document.getElementById
-innerHtml vs innerText
 document.getElementsByClassName
 document.getElementsByTagName
+innerHtml vs innerText
 createElement
 setAttribute
 append vs appendChild 
-
+querySelector vs querySelectorAll
+firstElementChild, lastElementChild
 
 
 // Function to see 

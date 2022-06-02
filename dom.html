@@ -27,7 +27,43 @@
             <td>26</td>
         </tr> 
     </table> <br/>  
-    <button onclick="addrow()" >Add row</button>
+    <button onclick="addrow()" >Add row</button> &nbsp; <button onclick="deleterow()" >Delete row</button> <br/> <br/>
+
+    <!-- Select Country -->
+    <h3>Add Typed Country to Select box</h3>
+    <div>
+        <label>Select Country</label>
+
+        <select id="country" >
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select> <br/> <br/>
+
+        <label>Type to add Country</label>
+        <input type="text" id="country-value"/> <br/>  <br/>
+
+        <button onclick="addCountry()" > Add Country</button> &nbsp;
+        <button onclick="removeCountry()"> Delete Country </button>
+
+    </div> <br/> <br/>
+
+
+    <!-- Events -->
+    <h3>Events</h3>
+    Events: <input type="text" onblur="eventTriggered(this)" onfocus="eventTriggered(this)" onclick="eventTriggered(this)"
+    onselect="eventTriggered(this)" onkeydown="eventTriggered(this)" onkeyup="eventTriggered(this)"/> <br/> <br/>
+
+    <button type="button" onclick="eventButton()">Click Me</button>
+
+    <h3>Retrieve First and Last element from a Parent </h3>
+    <div id="appendData">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+        </ul> <br/>
+    </div>
+
 </body>
 <script src="./dom.js" ></script>
 </html>
